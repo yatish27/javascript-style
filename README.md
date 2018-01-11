@@ -11,7 +11,7 @@ $(
     // Name the object(class) as a combination of resource and action
     var ProjectNew = {
         init: function() {
-            // memoise the required DOM elements. Do Parse the DOM multiple times 
+            // memoize the required DOM elements. Do Parse the DOM multiple times 
             var form = $("#project-new");
             var inputs = $(".js-project-user-fields");
 
